@@ -1,0 +1,15 @@
+function myFunction (a){
+if (a==0) {
+  return true;
+}
+else if (a==1) {
+  return false;
+}
+else if (a >0 ){
+   myFunction(a-2);
+}
+else if( a<0 ){
+   myFunction(a+2);
+}
+
+}
